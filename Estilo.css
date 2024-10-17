@@ -1,0 +1,63 @@
+/* Estilo general del cuerpo de la página */
+body {
+    font-family: 'Orbitron', sans-serif; /* Fuente moderna y tecnológica */
+    background-color: #0d0d0d; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco por defecto */
+    scroll-behavior: smooth; /* Desplazamiento suave */
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #1a1a1a; /* Fondo de la navbar */
+}
+.navbar-brand, .nav-link {
+    color: #00ffcc !important; /* Color de los enlaces y marca */
+}
+.navbar-brand:hover, .nav-link:hover {
+    color: #ff4081 !important; /* Color al pasar el cursor */
+}
+
+
+
+
+/* Estilos para las secciones */
+section {
+    padding: 60px 0; /* Espaciado vertical */
+}
+
+/* Títulos de las secciones */
+.section-title {
+    text-align: center; /* Centrar el título */
+    margin-bottom: 40px; /* Espacio inferior */
+    font-size: 2.5rem; /* Tamaño de fuente grande */
+    color: #00ffcc; /* Color del título */
+}
+
+/* Estilos para las tarjetas de productos */
+.card {
+    background-color: #1a1a1a; /* Fondo oscuro para las tarjetas */
+    border: none; /* Sin borde */
+}
+.card-title {
+    color: #ff4081; /* Color del título del producto */
+}
+
+/* Estilos para los botones personalizados */
+.btn-custom {
+    background-color: #00ffcc; /* Color de fondo */
+    border: none; /* Sin borde */
+    color: #0d0d0d; /* Color del texto */
+    transition: background-color 0.3s; /* Transición suave al pasar el cursor */
+}
+.btn-custom:hover {
+    background-color: #ff4081; /* Color al pasar el cursor */
+    color: #ffffff; /* Texto blanco al pasar el cursor */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #1a1a1a; /* Fondo oscuro */
+    padding: 20px 0; /* Espaciado vertical */
+    text-align: center; /* Centrar el texto */
+    color: #00ffcc; /* Color del texto */
+}
